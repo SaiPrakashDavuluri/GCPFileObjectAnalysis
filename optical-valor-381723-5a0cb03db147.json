@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "optical-valor-381723",
+  "private_key_id": "5a0cb03db147a5818c36220f335ad91431562ea5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDGxd0znvkLxqmP\nz62qccSiYCxwNosphLqpceFYAo9jft7ZjCEiZZaKHEzhFidLC/DfhdX0E5i0Juax\n+kxAAjSxpEwDRhsIKX1vcH2/Q9udW2/CNRuYdtMz68iv+T7/RW8Dv9BFuF7tW18f\n2xTY8tKiXu6T86dXoYtRPc9FLL13+JjO5r7iBXYud+++dh/rBBEOR8XkJ6VVHkky\nNSwHemf85OLMLZ9WEzAO35ZnLCV3726tiG8omw00wcQVGkuIMlnoYBOAooZOlT/M\nuwI7RDpi4TSmtK3A2fUPwPatuZsHexFavqtoR4akMGRnzll8qm/34EtATh2fBQ0J\n0AMOIKKfAgMBAAECggEAXnz5QUwtJBFsUh4Ndmv9ZpikFzV+Yp6jIuAtGCqjYc8R\n/UUVDSZQcNeyHf9rb0u+VWroAU39dYnWeT072OOTi+xHa/j76Z3bcEl/pReLQpqQ\nHjgjpY66qEBJlok7jppBgv0/8pyJl3grWFfK6bRIN4I8FB2ra0cyFEz3BfGWIXw2\nc0i7Yu9WkFoA49rXHADal6ejkxr2Z88Bx+SHC9A8QW7FL71KOg6BOp/BoDhW15xP\n0KudsjCXk5M8VsFZUCcZECZxru5afwPLJGvJHs39TGBfDRw/Yvnjl9KMdmPHIX32\nT9R0igDqmx2oKp6Oy/ScHfhrX40BE8zpIU0gg4EkoQKBgQD0c81g4rXaiAfNnBPF\nTjxg+MIvZa9WtUBqBig2CVXTzXEV7GGm43Ysw7zh8+zQhpRSM6lmkxX0tn+OGAhM\n05Vdbgq3ldSDQXnO2ZJxTl3pIlMMOfnm5CzCtFV3Zm0INK5ZCt8yR0iXKuErMxkI\n3BgRnlD9uyymwjEH+snfMyohIQKBgQDQKadVUHSpAHePUufpR5hMJO+LgFOnR44m\ncTOQAhnx62mKOAj+NZfjEWibqJc8lj+kIwjgpBhcdjtXhQZ1CjGdwhy1t7vDAH/V\n8Iq0tQuXLuHn5/m2tXxRtn77ewRtzUwhya9j6GlO97xZDus3ruuI4d+XitrpuPrh\nW0d0ChWLvwKBgQDEBqDpUqPV7EOlo8VO8WAFuzWs4HPsqkhPPUS9oFrND+/hTr84\nHytC1mv/HaYHygPirz7m3Ig8xqQfBDKTuRAL7hR2B5Z08uqE74A5kEhKjZXfNhaq\nCsvCDu6CYwaIEAbHrKozHWqenmoWRFGNA0HhzvzPm2tBBnRfG8MKU3MzQQKBgHgv\nxJSGmoTFZ0KSPKI9GxrDrKcf1azcrJ9Xdszr2a0LHemXBuI3cVXCRGKzSXbKzT3o\nmISTWhlwjjyu6paC5zjNzaPBzJ//Vs/gTUWezm1gvUAXeN9cE8ZeFxz93wXCpfVQ\nLHsDwmG8ubu12GtTDF0BBQbLPi/6BKg++pduBxijAoGBAOno3FNekdubaCChj18b\nu/MJqvEq9a8U2tflLfyGJXehgRVzBpiJJGqxZ891nLZELCiQ7Sqb7XbYCSnPtKvS\nwajI+t4QNh1Jphr5X3bzUmqjccwW+1BXx6mWc/uF/CY/yZOzLihmAs5Icu1aM/am\n+O3uj81G8tYiNo626Z6jFW5v\n-----END PRIVATE KEY-----\n",
+  "client_email": "access-file-objects-gcp@optical-valor-381723.iam.gserviceaccount.com",
+  "client_id": "113075183318351698315",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/access-file-objects-gcp%40optical-valor-381723.iam.gserviceaccount.com"
+}
