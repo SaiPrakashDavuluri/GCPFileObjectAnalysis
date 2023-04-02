@@ -33,13 +33,11 @@ def downloadFile(gcpClientObject, gcpFileNames):
         blobs = gcpClientObject.list_blobs(bucket.name)
         if blobs is not None:
             for file in blobs:
-                print("file Name:::", file.name)
                 bucket = storage.Bucket(gcpClientObject, bucket.name)
                 start = time.perf_counter()
                 blob = bucket.blob(file.name)
                 content = blob.download_as_bytes
-                print("[==================================================]")
-                print("Time Elapsed for file ", time.perf_counter() - start)
+                print("file Name:::", file.name, "Time Elapsed:::", time.perf_counter() - start)
         else:
             print("Bucket is empty...")
 
