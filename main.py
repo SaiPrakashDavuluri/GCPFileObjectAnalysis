@@ -33,6 +33,7 @@ def downloadFile(gcpClientObject, gcpFileNames):
         blobs = gcpClientObject.list_blobs(bucket.name)
         if blobs is not None:
             for file in blobs:
+                print("file Name:::", file.name)
                 bucket = storage.Bucket(gcpClientObject, bucket.name)
                 start = time.perf_counter()
                 blob = bucket.blob(file.name)
