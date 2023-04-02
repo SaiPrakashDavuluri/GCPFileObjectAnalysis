@@ -20,20 +20,27 @@ def get_current_Internet_speed():
     # To understand, we need to convert Upload & Download speeds to MBPS.
     downloadMBS = round(downloadSpeed/(6**10), 2)
     uploadMBS = round(uploadSpeed/(6**10), 2)
-    print("Current Network Details")
-    print("Ping:", currentPing)
-    print("Download Speed:", downloadMBS)
-    print("Upload Speed:", uploadMBS)
+    print("Current Network Details....")
+    print("Ping:::", currentPing)
+    print("Download Speed:::", downloadMBS)
+    print("Upload Speed:::", uploadMBS)
 
 
 def downloadFile(gcpClientObject, gcpFileNames):
-    bucket = storage.Bucket(gcpClientObject, 'file-object-analysis')
-    for objectName in gcpFileNames:
-        start = time.perf_counter()
-        blob = bucket.blob(objectName)
-        content = blob.download_as_bytes
-        print("[==================================================]")
-        print("Time Elapsed for file ", time.perf_counter() - start)
+    gcpBuckets = gcpClientObject.list_buckets()
+    for bucket in gcpBuckets:
+        print("Bucket Name:::", bucket.name)
+        blobs = gcpClientObject.list_blobs(bucket.name)
+        if blobs is not None:
+            for file in blobs:
+                bucket = storage.Bucket(gcpClientObject, bucket.name)
+                start = time.perf_counter()
+                blob = bucket.blob(file.name)
+                content = blob.download_as_bytes
+                print("[==================================================]")
+                print("Time Elapsed for file ", time.perf_counter() - start)
+        else:
+            print("Bucket is empty...")
 
 
 if __name__ == '__main__':
